@@ -8,63 +8,23 @@ const Projects = () => {
   const [projectSet, setProjectSet] = useState([
     {
       id: 1,
-      title: "Geunwon Board",
-      url: "https://my-first-board.herokuapp.com/",
+      title: "봉사활동을 함",
+      url: "https://www.naver.com/",
       image:
-        "https://raw.githubusercontent.com/won-developer/img/master/geunwonboard.png",
-      uselang: "Skills : Vanila JS, Node JS, Express, MongoDB, SCSS, Pug",
-      projectintro: "프로젝트 소개",
-      text: ["- Naver를 살짝 카피한 게시판","- Passport Local Login", "- 페이징", "- CkEditor", "- 게시글 검색, 업로드, 좋아요, 조회수", "- 댓글 & 답글"]
+        "https://user-images.githubusercontent.com/54468963/114719974-8ea5df80-9d72-11eb-9ab0-1565077bdc38.jpg",
+      uselang: "장소: !@#$",
+      projectintro: "봉사활동 소개",
+      text: ["- 내용1","- 내용2", "- 내용3", "- 내용4"]
     },
     {
       id: 2,
-      title: "Youtube Cloneing",
-      url: "https://won-wetube.com",
+      title: "기부활동을 함",
+      url: "https://www.naver.com",
       image:
-        "https://raw.githubusercontent.com/won-developer/img/master/wetube.png",
-      uselang: "Skills: Vanila JS, Node JS, Express, MongoDB, SCSS, Pug",
-      projectintro: "프로젝트 소개",
-      text: ["- 유튜브 따라 만들기", "- Passport Local, Github, Naver, Kakao Login", "- 영상 검색, 업로드, 녹화, 수정, 좋아요, 조회수",  "- 프로필 관리", "- 댓글", "- 반응형 웹"]
-    },
-    {
-      id: 3,
-      title: "Movie App",
-      url: "https://won-developer.github.io/first_react_movie_app/",
-      image:
-        "https://raw.githubusercontent.com/won-developer/img/master/movie_app_img.png",
-      uselang: "Skills: React",
-      projectintro: "프로젝트 소개",
-      text: ["- 영화 정보 API", "- React Hooks를 사용한 간단한 영화 소개"]
-    },
-    {
-      id: 4,
-      title: "TodoList",
-      url: "https://won-developer.github.io/mommentum-clone/",
-      image:
-        "https://raw.githubusercontent.com/won-developer/img/master/todolist_img.png",
-      uselang: "Skills: HTML, CSS, Vanila JS",
-      projectintro: "프로젝트 소개",
-      text: ["- 날씨 API", "- Local Storage에 목록 저장", "- 실시간 시간"]
-    },
-    {
-      id: 5,
-      title: "Github",
-      url: "https://won-developer.github.io/github-clone/",
-      image:
-        "https://raw.githubusercontent.com/won-developer/img/master/github_img.png",
-      uselang: "Skills: HTML, CSS, Vanila JS",
-      projectintro: "프로젝트 소개",
-      text: ["- Github 따라 만들기", "- 반응형 웹"]
-    },
-    {
-      id: 6,
-      title: "Kakao Talk",
-      url: "https://won-developer.github.io/kakao-clone/",
-      image:
-        "https://raw.githubusercontent.com/won-developer/img/master/kakao_img.png",
-      uselang: "Skills: HTML, CSS",
-      projectintro: "프로젝트 소개",
-      text: ["- Kakao Talk 따라 만들기", "- 모바일 화면에서만 적용"]
+        "https://user-images.githubusercontent.com/54468963/114720815-4f2bc300-9d73-11eb-8d28-050738b20ae8.jpg",
+      uselang: "장소: 어디",
+      projectintro: "기부활동 소개",
+      text: ["- 내용"]
     },
   ]);
   return (

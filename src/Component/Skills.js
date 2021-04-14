@@ -8,42 +8,42 @@ const Skills = () => {
     {
       id: 1,
       title: "HTML",
-      level: "intermediate"
+      level: "DEFENSIVE PROGRAMMING AND DEBUGGING"
     },
     {
       id: 2,
       title: "CSS",
-      level: "intermediate"
+      level: "CRYPTOCURRENCY AND BLOCKCHAIN TECHNOLOGY EXPLAINED"
     },
     {
       id: 3,
       title: "JavaScript",
-      level: "intermediate"
+      level: "RAISING CAPITAL: CREDIT TECH, COIN OFFERINGS, AND CROWDFUNDING"
     },
     {
       id: 4,
       title: "React",
-      level: "basic"
+      level: "COMPUTER PROGRAMMING FOR EVERYONE"
     },
     {
       id: 5,
       title: "NodeJS",
-      level: "basic"
+      level: "LEARN TO CODE FOR THE WEB"
     },
     {
       id: 6,
       title: "MongoDB",
-      level: "basic"
+      level: "EXPLORING EVERYDAY CHEMISTRY"
     },
     {
       id: 7,
       title: "C",
-      level: "basic"
+      level: "TEACHING PRIMARY SCIENCE: PHYSICS"
     },
     {
       id: 8,
       title: "SQL",
-      level: "basic"
+      level: "PRECALCULUS: THE MATHEMATICS OF NUMBERS, FUNCTIONS AND EQUATIONS"
     }
   ]);
 
